@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+    color: #333;
+    height: 100vh;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    width: 800px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.formLogin{
+    width: 100%;
+    margin-left: 45px;
+}
+
+.input-container{
+    position: relative;
+}
+
+label{
+    display: flex;
+    margin-bottom: 8px;
+}
+
+h1{
+    color: #CA2128;
+    text-align: center;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.inputs{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.input-container{
+    position: relative;
+}
+
+#mostrarSenhaIcon{
+    position: absolute;
+    right: 10px;
+    top: 58%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #737373;
+    font-weight: bold;
+}
+
+#mostrarSenhaIcon:hover{
+    color: rgb(47, 47, 47);
+}
+
+.enviar button{
+    width: 100%;
+    padding: 10px;
+    background-color: #44A64A;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.enviar button:hover{
+    background-color: #368B36;
+}
+
+.btn-voltar{
+    border: 0 !important;
+}
+
+img{
+    width: 380px;
+}
+
+.borda{
+    border-right: solid 2px rgba(0, 0, 0, 0.3);
+}
