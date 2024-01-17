@@ -9,7 +9,7 @@ Ciência e Tecnologia do Rio Grande do Sul (IFRS) - <i>Campus</i> Bento Gonçalv
 
 <br>
 
-<!---## 🚀 Como Executar o Sistema
+## 🚀 Como Executar o Sistema
 
 Siga os passos abaixo para configurar e executar o Sistema de Gerenciamento de Estágios:
 
@@ -18,16 +18,39 @@ Certifique-se de ter os seguintes requisitos instalados em seu ambiente de desen
 
 - Servidor web (por exemplo, Apache)
 - PHP
-- MySQL
+- MySQL (o arquivo DB se encontra na raiz do projeto; chama-se estagiosSQL.sql)
 
 ### Passos de Configuração
+1. **Crie uma pasta no htdocs:**
+   <br>
+   Certifique-se de ter o servidor PHP instalado em sua máquina. Em seguida, crie uma pasta no diretório htdocs do seu servidor web.
 
-1. **Clone o Repositório:**
+<br>
+
+2. **Clone o Repositório:**
+   <br>
+   Acesse a pasta que você acabou de criar e clone o repositório do projeto usando o seguinte comando Git:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+   cd nome-da-sua-pasta
+   git clone https://github.com/BernardoOzelame/EstagiosIFRS-BG.git
 
-<br>--->
+<br>
+
+3. **Acesse o sistema em seu navegador:**
+   <br>
+   Após concluir os passos anteriores, você está pronto para acessar o sistema em seu navegador. Siga as instruções abaixo:
+      ```bash
+      I. Abra o seu navegador da web favorito. 
+      II. Digite o endereço correspondente ao servidor PHP e à pasta que você criou no passo 1. Se estiver executando localmente,
+      o endereço pode ser: "http://localhost/nome-da-sua-pasta"
+      III. Pressione Enter para acessar o sistema.
+
+<br>
+
+4. **Obsevação Inportante**
+- Certifique-se de ter o Git instalado em seu sistema antes de clonar o repositório.
+
+<br>
 
 ## 🌟 Funcionalidades Principais
 
@@ -73,7 +96,7 @@ Certifique-se de ter os seguintes requisitos instalados em seu ambiente de desen
 6. **Interface do Software:**
    - A interface do software foi projetada e implementada, garantindo uma experiência de usuário intuitiva.
 
-7. **Apresentação do Projeto**
+7. **Apresentação do Projeto:**
    - O projeto foi apresentado, proporcionando uma oportunidade para os alunos destacarem os principais recursos e funcionalidades.
 
 8. **Ajustes pós-Apresentação:**
