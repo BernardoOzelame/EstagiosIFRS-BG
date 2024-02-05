@@ -13,14 +13,14 @@ Ciência e Tecnologia do Rio Grande do Sul (IFRS) - <i>Campus</i> Bento Gonçalv
 
 Siga os passos abaixo para configurar e executar o Sistema de Gerenciamento de Estágios:
 
-### Pré-requisitos
+### - Pré-requisitos
 Certifique-se de ter os seguintes requisitos instalados em seu ambiente de desenvolvimento:
 
 - Servidor web (por exemplo, Apache)
 - PHP
 - MySQL (o arquivo DB se encontra na raiz do projeto; chama-se estagiosSQL.sql)
 
-### Passos de Configuração
+### - Passos de Configuração
 1. **Crie uma pasta no htdocs:**
    <br>
    Certifique-se de ter o servidor PHP instalado em sua máquina. Em seguida, crie uma pasta no diretório htdocs do seu servidor web.
@@ -49,7 +49,21 @@ Certifique-se de ter os seguintes requisitos instalados em seu ambiente de desen
 
 4. **Obsevação Inportante**
 - Certifique-se de ter o Git instalado em seu sistema antes de clonar o repositório.
+  
 
+### - Login e Senha Disponíveis Para Acessar o Sistema
+- **Nível de acesso:** Administrador
+   - **Login:** admin
+   - **Senha:** admin
+  
+- **Nível de acesso:** Empresa
+   - **Login:** empresa
+   - **Senha:** empresa
+  
+- **Nível de acesso:** Estagiário
+   - **Login:** estagiario
+   - **Senha:** estagiario
+     
 <br>
 
 ## 🌟 Funcionalidades Principais
